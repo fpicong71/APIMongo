@@ -1,0 +1,142 @@
+### POST Profesionales
+POST http://localhost:3000/profesionales HTTP/1.1
+content-Type: application/json
+
+{
+    "nombre":"Patrick Swayze",
+    "edad":57,
+    "nacionalidad":"Norteamericana",
+    "oscars":0,
+    "profesion":["actor","bailarin","coreografo"],
+    "bio":"https://es.wikipedia.org/wiki/Patrick_Swayze",
+    "peliculas":["6127ae091ba3bd1e6484b46e"]
+}
+
+###
+POST http://localhost:3000/profesionales HTTP/1.1
+content-Type: application/json
+
+{
+    "nombre":"Eleanor Bergstein",
+    "edad":83,
+    "nacionalidad":"Norteamericana",
+    "oscars":0,
+    "profesion":["director","guionista","productora"],
+    "bio":"https://es.wikipedia.org/wiki/Eleanor_Bergstein",
+    "peliculas":["6127ae091ba3bd1e6484b46e"]
+}
+
+###
+POST http://localhost:3000/profesionales HTTP/1.1
+content-Type: application/json
+
+{
+    "nombre":"Emile Ardolino",
+    "edad":50,
+    "nacionalidad":"Norteamericana",
+    "oscars":0,
+    "profesion":["director","coreógrafo","productor"],
+    "bio":"https://es.wikipedia.org/wiki/Emile_Ardolino",
+    "peliculas":["6127ae091ba3bd1e6484b46e"]
+}
+
+###
+POST http://localhost:3000/profesionales HTTP/1.1
+content-Type: application/json
+
+{
+    "nombre":"Linda Gottlieb",
+    "edad":0,
+    "nacionalidad":"Norteamericana",
+    "oscars":0,
+    "profesion":["productor","guionista"],
+    "bio":"https://es.wikipedia.org/wiki/Linda_Gottlieb",
+    "peliculas":["6127ae091ba3bd1e6484b46e"]
+}
+
+###
+POST http://localhost:3000/profesionales HTTP/1.1
+content-Type: application/json
+
+{
+    "nombre":"Jennifer Grey",
+    "edad":61,
+    "nacionalidad":"Norteamericana",
+    "oscars":0,
+    "profesion":["actor","bailarin"],
+    "bio":"https://es.wikipedia.org/wiki/Jennifer_Grey",
+    "peliculas":["6127ae091ba3bd1e6484b46e"]
+}
+
+###
+POST http://localhost:3000/profesionales HTTP/1.1
+content-Type: application/json
+
+{
+    "nombre":"Jerry Orbach",
+    "edad":69,
+    "nacionalidad":"Norteamericana",
+    "oscars":0,
+    "profesion":["actor","actor voz"],
+    "bio":"https://es.wikipedia.org/wiki/Jerry_Orbach",
+    "peliculas":["6127ae091ba3bd1e6484b46e"]
+}
+
+
+###
+POST http://localhost:3000/profesionales HTTP/1.1
+content-Type: application/json
+
+{
+    "nombre":"Jennifer Grey",
+    "edad":61,
+    "nacionalidad":"Norteamericana",
+    "oscars":0,
+    "profesion":["actor","bailarin"],
+    "bio":"https://es.wikipedia.org/wiki/Jennifer_Grey",
+    "peliculas":["6127ae091ba3bd1e6484b46e"]
+}
+
+### GET todos los profesionales
+GET http://localhost:3000/profesionales HTTP/1.1
+content-Type: application/json
+
+{
+}
+
+### GET el profesional con el id dado ?id
+GET http://localhost:3000/profesionales?id= HTTP/1.1
+content-Type: application/json
+
+{
+    "_id" : "6127736ef1b716bce365f315"
+}
+
+### GET el profesional con el id dado :
+GET http://localhost:3000/profesionales: HTTP/1.1
+content-Type: application/json
+
+{
+    "_id" : "6127a9997b08bab0415e1401"
+}
+
+### PUT Modificar un profesional
+PUT http://localhost:3000/profesionales HTTP/1.1
+content-Type: application/json
+
+{
+    "_id": "6127a9997b08bab0415e1401",
+    "nacionalidad":"Estadounidense",
+    "oscars":10,
+    "profesion":["actor","bailarin","coreografo","cantautor"],
+    "peliculas":["6127ae091ba3bd1e6484b46e"]
+}
+
+
+### Eliminar un profesional
+DELETE http://localhost:3000/profesionales HTTP/1.1
+content-Type: application/json
+
+{
+    "_id":"6129508d01a6a25ab3736693"
+}

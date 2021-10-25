@@ -1,0 +1,13 @@
+### POST Profesionales Alpacino
+POST http://localhost:3000/profesionales HTTP/1.1
+content-Type: application/json
+
+{
+    "nombre":"Al Pacino",
+    "edad":81,
+    "nacionalidad":"Norteamericana",
+    "oscars":1,
+    "profesion":["actor","director","productor","guionista"],
+    "bio":"https://es.wikipedia.org/wiki/Al_Pacino",
+    "peliculas":["612978b3f1b716bce365f326"]
+}

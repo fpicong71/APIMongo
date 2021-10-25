@@ -1,0 +1,53 @@
+[{
+    "_id":"6127736ef1b716bce365f315",
+    "nombre":"Rose Byrne",
+    "edad":41,
+    "nacionalidad":"Australiana",
+    "oscars":0,
+    "profesion":["actriz"],
+    "bio":"https://es.wikipedia.org/wiki/Rose_Byrne",
+    "peliculas":["612774f0f1b716bce365f320","612775cbf1b716bce365f321"]
+},
+{
+    "_id":"612773adf1b716bce365f316",
+    "nombre":"Will Gluck",
+    "edad":47,
+    "nacionalidad":"Norteamericana",
+    "oscars":0,
+    "profesion":["director","guionista"],
+    "bio":"https://en.wikipedia.org/wiki/Will_Gluck",
+    "peliculas":["612774f0f1b716bce365f320","612775cbf1b716bce365f321"]
+},
+{
+    "_id":"612773d1f1b716bce365f317",
+    "nombre":"Domhnall Gleeson",
+    "edad":38,
+    "nacionalidad":"Irlandesa",
+    "oscars":0,
+    "profesion":["actor","director","escritor"],
+    "bio":"https://es.wikipedia.org/wiki/Domhnall_Gleeson",
+    "peliculas":["612774f0f1b716bce365f320","612775cbf1b716bce365f321"]
+},
+{
+    "_id":"",
+    "nombre":"Alfred Hitchcock",
+    "edad":80,
+    "nacionalidad":"Británica",
+    "oscars":2,
+    "profesion":["director","guionista","productor"],
+    "bio":"https://es.wikipedia.org/wiki/Alfred_Hitchcock",
+    "peliculas":["61277805f1b716bce365f322"]
+},
+{
+    "_id":"",
+    "nombre":"Anthony Perkins",
+    "edad":60,
+    "nacionalidad":"Norteaméricana",
+    "oscars":0,
+    "profesion":["actor","director","guionista"],
+    "bio":"https://es.wikipedia.org/wiki/Anthony_Perkins",
+    "peliculas":["61277805f1b716bce365f322"]
+},
+
+
+{}]

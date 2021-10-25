@@ -1,0 +1,39 @@
+[
+    {
+        "_id":"612774f0f1b716bce365f320",
+        "titulo":"Peter Rabbit",
+        "anio":2018,
+        "genero":["comedia","animación","familiar"],
+        "nacionalidad":"norteamericana",
+        "actores":["6127736ef1b716bce365f315","612773adf1b716bce365f316"],
+        "directores":["612773d1f1b716bce365f317"],
+        "guionistas":["612773d1f1b716bce365f317"],
+        "productores":[],
+        "sinopsis": "Un conejo rebelde y de lo más revoltoso intenta hacerse con el control de la huerta de un granjero en esta adaptación del cuento de Beatrix Potter. "
+    },
+    {
+        "_id":"612775cbf1b716bce365f321",
+        "titulo":"Peter Rabbit 2: The runaway",
+        "anio":2021,
+        "genero":["comedia","animación","familiar"],
+        "nacionalidad":"norteamericana",
+        "actores":["6127736ef1b716bce365f315","612773adf1b716bce365f316"],
+        "directores":["612773d1f1b716bce365f317"],
+        "guionistas":["612773d1f1b716bce365f317"],
+        "productores":[],
+        "sinopsis": "¡El jardín fue solo el principio! Peter y sus adorables amigos vuelven con más aventuras en “Peter Rabbit 2 A La Fuga”. Bea, Thomas, y los conejos han hecho las paces como una familia, pero a pesar de sus mejores esfuerzos, Peter no parece sacudirse su traviesa reputación. Aventurándose más allá del jardín, Peter se adentra en las calles menos recomendables de la ciudad donde sus trastadas son mejor apreciadas, pero cuando su peluda familia se encuentra en peligro, Peter deberá decidir qué tipo de conejo quiere ser."
+    }
+    ,
+    {
+        "_id":"61277805f1b716bce365f322",
+        "titulo":"Psicosis",
+        "anio":1960,
+        "genero":["terror","intriga","thriller"],
+        "nacionalidad":"norteamericana",
+        "actores":["61277907f1b716bce365f324"],
+        "directores":["61277832f1b716bce365f323"],
+        "guionistas":[],
+        "productores":[],
+        "sinopsis": "Marion Crane, una joven secretaria, tras cometer el robo de un dinero en su empresa, huye de la ciudad y, después de conducir durante horas, decide descansar en un pequeño y apartado motel de carretera regentado por un tímido joven llamado Norman Bates, que vive en la casa de al lado con su madre."
+    }
+]

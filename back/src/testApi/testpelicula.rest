@@ -1,0 +1,170 @@
+### POST pelicula
+POST http://localhost:3000/peliculas HTTP/1.1
+content-type: application/json
+
+{
+    "titulo"        :   "Dirty Darcing",
+    "anio"          :   "1987-01-01",
+    "genero"        :   ["romance","drama"],
+    "nacionalidad"  :   "Norteamericana",
+    "actores"       :   ["6127a9997b08bab0415e1401"],
+    "directores"    :   [],
+    "guionistas"    :   [],
+    "productores"   :   [],
+    "sinopsis"      :   "Años 60. Johnny Castle (Patrick Swayze) es un experto profesor de baile y un amante consumado. Por su parte, Baby Houseman (Jennifer Grey) es una aburrida e inocente adolescente de 17 años. Un verano se conocen en el balneario donde él trabaja. Aunque pertenecen a clases sociales muy distintas, cuando la música suena y bailan al ritmo del dirty dancing, las diferencias que los separan desaparecen."    
+}
+
+### GET pelicula con ID
+GET http://localhost:3000/peliculas?id= HTTP/1.1
+content-type: application/json
+
+{
+    "_id" : "6127ae091ba3bd1e6484b46e"
+}
+
+### GET todas las peliculas
+GET http://localhost:3000/peliculas HTTP/1.1
+content-type: application/json
+
+{
+  
+}
+ 
+### PeliculaID-> Actores
+GET http://localhost:3000/peliculas/actorid= HTTP/1.1
+content-type: application/json
+
+{
+    "_id" : "6127ae091ba3bd1e6484b46e"
+}
+
+###
+GET http://localhost:3000/peliculas/actor: HTTP/1.1
+content-type: application/json
+
+{
+    "_id" : "61277805f1b716bce365f322"
+}
+
+### PeliculaID-> Directores
+GET http://localhost:3000/peliculas/directorid= HTTP/1.1
+content-type: application/json
+
+{
+    "_id" : "6127ae091ba3bd1e6484b46e"
+}
+
+###
+GET http://localhost:3000/peliculas/director: HTTP/1.1
+content-type: application/json
+
+{
+    "_id" : "6127ae091ba3bd1e6484b46e"
+}
+
+### PeliculaID-> Guionistas
+GET http://localhost:3000/peliculas/guionistaid= HTTP/1.1
+content-type: application/json
+
+{
+    "_id" : "6127ae091ba3bd1e6484b46e"
+}
+
+###
+GET http://localhost:3000/peliculas/guionista: HTTP/1.1
+content-type: application/json
+
+{
+    "_id" : "6127ae091ba3bd1e6484b46e"
+}
+
+### PeliculaID-> Productor
+GET http://localhost:3000/peliculas/productoraid= HTTP/1.1
+content-type: application/json
+
+{
+    "_id" : "6127ae091ba3bd1e6484b46e"
+}
+
+###
+GET http://localhost:3000/peliculas/productora: HTTP/1.1
+content-type: application/json
+
+{
+    "_id" : "6127ae091ba3bd1e6484b46e"
+}
+
+### POST añadir actor a la pelicula
+POST http://localhost:3000/peliculas/actor HTTP/1.1
+content-type: application/json
+
+{
+      "_id" : "6127ae091ba3bd1e6484b46e",
+      "actor" : "612961949529bc9e01b4845c"
+}
+
+### POST añadir director a la pelicula
+POST http://localhost:3000/peliculas/director HTTP/1.1
+content-type: application/json
+
+{
+      "_id" : "6127ae091ba3bd1e6484b46e",
+      "director" : "61277832f1b716bce365f323"
+}
+
+### POST añadir guionista a la pelicula
+POST http://localhost:3000/peliculas/guionista HTTP/1.1
+content-type: application/json
+
+{
+      "_id" : "6127ae091ba3bd1e6484b46e",
+      "guionista" : "61277832f1b716bce365f323"
+}
+
+### PUT modificara pelicula
+PUT http://localhost:3000/peliculas HTTP/1.1
+content-type: application/json
+
+{
+        "_id"           :  "612978b3f1b716bce365f326",
+        "titulo"        :   "El precio del poder (Scarface)",
+        "genero"        :   ["drama","gansters"],
+        "nacionalidad"  :   "norteamericana",
+        "actores"       :   ["61297b623e3697c24e390991"],
+        "sinopsis"      :   "Tony Montana es un emigrante cubano frío e implacable que se instala en Miami con el propósito de convertirse en un gángster importante, y poder así ganar dinero y posición. Con la colaboración de su amigo Manny Rivera inicia una fulgurante carrera delictiva, como traficante de cocaína, con el objetivo de acceder a la cúpula de una organización de narcos."
+}
+
+### DELETE eliminar pelicula
+DELETE http://localhost:3000/peliculas HTTP/1.1
+content-type: application/json
+
+{
+        "_id"           :  "61298772f1b716bce365f327"
+}
+
+### DELETE eliminar actor de la pelicula
+DELETE http://localhost:3000/peliculas/actor HTTP/1.1
+content-type: application/json
+
+{
+        "_id"           :  "6127ae091ba3bd1e6484b46e",
+        "actor"         :   "612961949529bc9e01b4845c"
+}
+
+### DELETE eliminar director de la pelicula
+DELETE http://localhost:3000/peliculas/director HTTP/1.1
+content-type: application/json
+
+{
+        "_id"           :  "6127ae091ba3bd1e6484b46e",
+        "director"         :   "61277832f1b716bce365f323"
+}
+
+### DELETE eliminar guionista de la pelicula
+DELETE http://localhost:3000/peliculas/guionista HTTP/1.1
+content-type: application/json
+
+{
+        "_id"           :  "6127ae091ba3bd1e6484b46e",
+        "guionista"         :   "61277832f1b716bce365f323"
+}
